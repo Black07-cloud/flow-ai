@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
   LayoutDashboard, Inbox, CheckSquare, Clock3, CalendarDays, Users,
@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import "./styles.css";
 
-const API = "https://flow-ai-szqg.onrender.com";
+const API = import.meta.env.VITE_API_URL || "http://localhost:4000/api";
 
 function App() {
   const [page, setPage] = useState("Dashboard");
