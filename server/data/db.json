@@ -1,0 +1,104 @@
+{
+  "tasks": [
+    {
+      "id": 1790908875421,
+      "title": "Prepare and send quotation",
+      "description": "Please send the updated quotation before Friday. Arun can handle this.",
+      "priority": "High",
+      "status": "Pending",
+      "assignee": "Arun",
+      "dueDate": "2026-10-03",
+      "source": "AI Inbox"
+    },
+    {
+      "id": 1,
+      "title": "Send quotation to ABC Industries",
+      "description": "Quotation requested by customer.",
+      "priority": "High",
+      "status": "Pending",
+      "assignee": "Arun",
+      "dueDate": "2026-10-03",
+      "source": "Email"
+    },
+    {
+      "id": 2,
+      "title": "Follow up with Ravi about proposal",
+      "description": "Customer has not replied to the proposal.",
+      "priority": "Medium",
+      "status": "Pending",
+      "assignee": "Priya",
+      "dueDate": "2026-10-04",
+      "source": "Email"
+    },
+    {
+      "id": 3,
+      "title": "Prepare weekly sales report",
+      "description": "Prepare and share the weekly report.",
+      "priority": "Low",
+      "status": "Pending",
+      "assignee": "Karthik",
+      "dueDate": "2026-10-05",
+      "source": "Manual"
+    }
+  ],
+  "followups": [
+    {
+      "id": 1,
+      "customer": "ABC Industries",
+      "contact": "sales@abc.example",
+      "lastContact": "2026-09-30",
+      "nextFollowup": "2026-10-03",
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "customer": "Ravi Kumar",
+      "contact": "ravi@example.com",
+      "lastContact": "2026-09-29",
+      "nextFollowup": "2026-10-04",
+      "status": "Pending"
+    }
+  ],
+  "meetings": [
+    {
+      "id": 1,
+      "title": "ABC Industries Demo",
+      "date": "2026-10-03",
+      "time": "10:30",
+      "owner": "Arun"
+    },
+    {
+      "id": 2,
+      "title": "Weekly Team Sync",
+      "date": "2026-10-04",
+      "time": "09:30",
+      "owner": "Priya"
+    }
+  ],
+  "inbox": [
+    {
+      "id": 1,
+      "sender": "ABC Industries",
+      "subject": "Quotation needed before Friday",
+      "body": "Please send the updated quotation before Friday. Arun can handle this.",
+      "received": "Today 08:40",
+      "urgent": true
+    },
+    {
+      "id": 2,
+      "sender": "Ravi Kumar",
+      "subject": "Following up on our proposal",
+      "body": "Just checking whether there is any update on the proposal.",
+      "received": "Yesterday 17:20",
+      "urgent": false
+    },
+    {
+      "id": 3,
+      "sender": "Meena from Nova",
+      "subject": "Meeting request for next week",
+      "body": "Can we schedule a product discussion next week?",
+      "received": "Yesterday 14:10",
+      "urgent": false
+    }
+  ]
+}
