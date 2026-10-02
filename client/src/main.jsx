@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import "./styles.css";
 
-const API = "http://localhost:4000/api";
+const API = "https://flow-ai-szqg.onrender.com";
 
 function App() {
   const [page, setPage] = useState("Dashboard");
